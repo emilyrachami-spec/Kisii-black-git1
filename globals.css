@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { -webkit-tap-highlight-color: transparent; }
+body { font-family: 'Inter', system-ui, sans-serif; }
+.hide-scroll::-webkit-scrollbar { display: none; }
+.hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+.profile-grad { background: linear-gradient(180deg, transparent 32%, rgba(0,0,0,0.92) 100%); }
